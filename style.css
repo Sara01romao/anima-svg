@@ -1,0 +1,23 @@
+
+
+@keyframes liga {
+    to{
+        fill-opacity: 1;
+    }
+}
+
+@keyframes desliga {
+    to{
+        fill-opacity: 0.3;
+    }
+}
+
+
+
+#azul, #vermelho{
+    animation: liga 1s ease infinite;
+}
+
+#amarelo, #verde{
+    animation: desliga 1s ease infinite;
+}
